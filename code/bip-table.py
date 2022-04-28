@@ -4,7 +4,7 @@
 
 import re
 
-regex_num = re.compile("\\|.\\[\\[bip-\\d+.mediawiki\\|(\\d+)\\]\\]")
+regex_num = re.coile("\\|.\\[\\[bip-\\d+.mediawiki\\|(\\d+)\\]\\]")
 regex_altnum = re.compile("\\D+(\\d+)\\D+")
 
 bips = []
